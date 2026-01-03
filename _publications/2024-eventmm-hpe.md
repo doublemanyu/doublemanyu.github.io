@@ -1,13 +1,14 @@
 ---
-title: "Adaptive Vision Transformer for Event-Based Human Pose Estimation"
+title: "Event-Based Multi-Movement Human Pose Estimation (EventMM-HPE)"
 collection: publications
-publication_type: conferences
-permalink: /publications/adaptive-vit-event-hpe/
-year: 2024
-venue: "Conference on Event-Based Vision"
-authors: "Nannan Yu et al."
+category: conferences
+permalink: /publications/eventmm-hpe/
+date: 2024-01-01
+venue: "ACM International Conference on Multimedia (ACM MM 2024)"
+authors: "Nannan Yu, Tao Ma, Jiqing Zhang, Yuji Zhang, Qirui Bao, Xiaopeng Wei, Xin Yang"
 paperurl: "https://dl.acm.org/doi/10.1145/3664647.3681401"
 ---
+
 
 ## Overview
 
@@ -84,7 +85,7 @@ After approval, the dataset can be accessed via:
 
 - **Baidu Disk**:  
   https://pan.baidu.com/s/1qLH0kDg7a_K1m2maZFf-iQ  
-  **Access code**: `nmal`
+  <!-- **Access code**: `nmal` -->
 
 If you encounter any issues or have questions regarding the dataset, please feel free to contact us.
 
