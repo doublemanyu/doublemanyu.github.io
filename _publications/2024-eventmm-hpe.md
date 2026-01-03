@@ -1,7 +1,7 @@
 ---
 title: "Event-Based Multi-Movement Human Pose Estimation (EventMM-HPE)"
 collection: publications
-category: conferences
+publication_type: conferences
 permalink: /publications/eventmm-hpe/
 date: 2024-01-01
 venue: "ACM International Conference on Multimedia (ACM MM 2024)"
