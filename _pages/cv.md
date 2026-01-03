@@ -9,56 +9,75 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
+- **Ph.D. Student**, Dalian University of Technology (DUT), China  
+  *Computer Application Technology / Computer Science (Academic Ph.D.)*  
+  *(2020 – Present)*  
+  Research focus: event-based vision, instance segmentation, efficient deep learning.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **M.S.**, Ocean University of China (OUC), China  
+  *Computer Application Technology*  
+  *(2017 – 2020)*
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **B.Eng.**, Qingdao Agricultural University, China  
+  *Communication Engineering*  
+  *(2012 – 2016)*
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Research Interests
+- Event-based vision (event cameras, event representation and learning)  
+- Instance segmentation and visual perception under challenging conditions  
+- Efficient deep learning models (transformers and adaptive computation)  
+- Human-centric perception tasks (pose estimation, segmentation)
+
+
+## Research Experience
+- **Ph.D. Researcher**, Dalian University of Technology, China  
+  *(2020 – Present)*  
+  - Research on computer vision with a focus on event-based data and perception tasks  
+  - Develop efficient architectures for event-driven perception (e.g., pose estimation, segmentation)  
+  - Build datasets and pipelines for event-based learning and evaluation
+
+- **Research Student**, Ocean University of China, China  
+  *Multimedia Laboratory*  
+  *(2017 – 2020)*  
+  - Participated in laboratory research on computer vision (e.g., object detection and recognition)  
+  - Studied deep learning–based detection models and feature fusion strategies
+
+
+## Publications
+<ul>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
+
+## Patents (optional)
+- Event-camera-based gait recognition using hypergraph models (CN202311646553.X)  
+- Event-camera-based motion segmentation via deep hypergraph clustering (CN202410649974.6)  
+- Multi-scale CNN feature extraction method (CN112541507B)
+
+
+## Awards & Honors (optional)
+- Best Paper Award, CAD & CG Conference (2023)  
+- Best Poster Award, CAD & CG Conference (2024)  
+- Oral Presentation Second Prize, DUT Ph.D. Academic Forum (2024)  
+- Excellent Poster Award, DUT Ph.D. Academic Forum (2024)
+
+
+## Academic Service & Activities (optional)
+- Graduate Party Branch Secretary (Computer System Architecture)  
+- Academic Department Head, Graduate Student Union  
+
+
+## Technical Skills
+- **Programming**: Python, C/C++  
+- **Deep Learning**: PyTorch (primary), TensorFlow (basic)  
+- **Computer Vision**: event-based vision, instance segmentation, pose estimation  
+- **Tools**: Linux, Git, OpenCV, FFmpeg  
+
+
+## Language Skills
+- **Chinese**: Native  
+- **English**: Proficient  
