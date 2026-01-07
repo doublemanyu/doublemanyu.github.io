@@ -77,15 +77,7 @@ Extensive experiments demonstrate that the proposed approach **outperforms exist
 
 ---
 
-## Dataset Access
 
-The EventMM-HPE dataset is available upon request.
-
-After approval, the dataset can be accessed via:
-
-- **Baidu Disk**:  
-  https://pan.baidu.com/s/1qLH0kDg7a_K1m2maZFf-iQ  
-  <!-- **Access code**: `nmal` -->
 
 If you encounter any issues or have questions regarding the dataset, please feel free to contact us.
 
