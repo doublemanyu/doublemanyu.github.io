@@ -76,8 +76,9 @@ The synchronized configuration enables precise ground-truth pose annotation.
 Extensive experiments demonstrate that the proposed approach **outperforms existing state-of-the-art methods** in estimation accuracy while significantly reducing computational complexity.
 
 ---
+## DATA link
 
-
+http://mmhpe.dluticcd.com
 
 If you encounter any issues or have questions regarding the dataset, please feel free to contact us.
 
