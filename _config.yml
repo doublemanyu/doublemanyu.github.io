@@ -1,126 +1,168 @@
-# ================================
 # Basic Site Settings
-# ================================
-locale: "en-US"
-title: "Nannan Yu"
-title_separator: "|"
-name: &name "Nannan Yu"
-description: &description "Ph.D. student at Dalian University of Technology"
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Nannan Yu | Multimodal Vision"
+title_zh                 : "于男男 | 多模态视觉"
+masthead_title           : "Nannan Yu"
+masthead_title_zh        : "于男男"
+title_separator          : "-"
+name                     : &name "Nannan Yu"
+description              : &description "Nannan Yu's academic homepage on video understanding, event-based vision, multimodal perception, and efficient visual representation learning."
 
-url: "https://doublemanyu.github.io"
-baseurl: ""
-repository: "doublemanyu/doublemanyu.github.io"
+url                      : https://doublemanyu.github.io
+baseurl                  : ""
+repository               : "doublemanyu/doublemanyu.github.io"
 
-
-# ================================
-# Author Information
-# ================================
+# Site Author
 author:
-  avatar: "ynn.png"
-  name: "Nannan Yu"
-  bio: "Ph.D. student at Dalian University of Technology."
-  location: "Dalian, China"
-  employer: "Dalian University of Technology"
-  email: "nannanyu930606@gmail.com"
+  avatar           : "ynn.png"
+  name             : "Nannan Yu"
+  pronouns         :
+  bio              : "Ph.D. student at Dalian University of Technology, working on video understanding, event-based vision, RGB-Event multimodal perception, and efficient visual representation learning."
+  bio_zh           : "大连理工大学计算机应用技术博士研究生，研究方向为视频理解、事件视觉、RGB-Event 多模态感知与高效视觉表征学习。"
+  location         : "Dalian, China"
+  location_zh      : "中国大连"
+  employer         : "Dalian University of Technology"
+  employer_zh      : "大连理工大学"
+  uri              :
+  email            : "12009059@mail.dlut.edu.cn"
 
-  # Academic profiles
-  # googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  # orcid: "https://orcid.org/0009-0008-1049-6317"
+  # Academic websites
+  academia         :
+  arxiv            :
+  googlescholar    :
+  inspire-hep      :
+  impactstory      :
+  orcid            :
+  semantic         :
+  ssrn             :
+  pubmed           :
+  researchgate     :
+  scopus           :
+  zotero           :
 
-  # Code & repositories
-  github: "doublemanyu"
+  # Repositories and software development
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  github           : "doublemanyu"
+  kaggle           :
+  stackoverflow    :
 
+  # Social media
+  artstation       :
+  bluesky          :
+  facebook         :
+  flickr           :
+  foursquare       :
+  goodreads        :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  mastodon         :
+  medium           :
+  pinterest        :
+  soundcloud       :
+  steam            :
+  telegram         :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  wikipedia        :
+  xing             :
+  youtube          :
+  zhihu            :
 
-# ================================
-# Publications
-# ================================
+# Publication Category
 publication_category:
   manuscripts:
     title: "Journal Articles"
+    title_zh: "期刊论文"
   conferences:
     title: "Conference Papers"
+    title_zh: "会议论文"
+  submissions:
+    title: "Under Review"
+    title_zh: "在投稿件"
 
+# Site Settings
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
 
-# ================================
-# Site Behavior
-# ================================
-breadcrumbs: false
-words_per_minute: 160
-future: false
-read_more: "disabled"
-talkmap_link: false
-
-
-# ================================
-# Feed (disabled)
-# ================================
 atom_feed:
-  hide: true
+  hide                   : true
+  path                   :
 
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
 
-# ================================
-# SEO & Analytics (disabled)
-# ================================
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :
+og_description           :
+social:
+  type                   : Person
+  name                   : "Nannan Yu"
+  links                  :
+
+# Analytics
 analytics:
-  provider: "false"
+  provider               : "false"
 
-
-# ================================
-# Files to Read
-# ================================
+# Reading Files
 include:
   - .htaccess
   - _pages
   - files
-
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - .bundle
   - .github
-  - .jekyll-cache
-  - .sass-cache
-  - node_modules
   - vendor
-  - Gemfile
-  - Gemfile.lock
+  - node_modules
   - README
   - LICENSE
-  - Dockerfile
-  - log
-  - tmp
-
-
-# ================================
-# Markdown & Conversion
-# ================================
+keep_files:
+  - .git
 encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
+incremental: false
 
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
   toc_levels: 1..6
 
-
-# ================================
 # Collections
-# ================================
 collections:
   publications:
     output: true
-    permalink: /publications/:path/
+    permalink: /:collection/:path/
   research:
     output: true
-    permalink: /research/:path/
+    permalink: /:collection/:path/
 
-
-# ================================
 # Defaults
-# ================================
 defaults:
   - scope:
       path: ""
@@ -128,14 +170,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-
   - scope:
       path: ""
       type: publications
     values:
       layout: single
       author_profile: true
-
   - scope:
       path: ""
       type: research
@@ -143,28 +183,19 @@ defaults:
       layout: single
       author_profile: true
 
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# ================================
-# Permalinks & Timezone
-# ================================
+# Output
 permalink: /:categories/:title/
-timezone: Etc/UTC
+timezone: Asia/Shanghai
 
-
-# ================================
-# Plugins (minimal, GitHub Pages safe)
-# ================================
+# Plugins
 plugins:
   - jekyll-gist
-  - jemoji
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-sitemap
-
-
-# ================================
-# HTML Compression
-# ================================
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+  - jemoji

@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Research"
+title_zh: "研究"
 permalink: /research/
 author_profile: true
 ---
@@ -8,5 +9,7 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.research reversed %}
-  {% include archive-single.html %}
+  <article class="research-expanded">
+    {{ post.content }}
+  </article>
 {% endfor %}
