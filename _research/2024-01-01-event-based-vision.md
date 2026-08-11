@@ -6,13 +6,13 @@ permalink: /research/event-based-vision/
 date: 2020-09-01
 venue: "Dalian University of Technology"
 venue_zh: "大连理工大学"
-excerpt: "Video understanding, RGB-Event multimodal fusion, efficient human pose estimation, and spatiotemporal modeling for complex scenes."
-excerpt_zh: "面向复杂场景的视频理解、RGB-Event 多模态融合、高效人体姿态估计及时空建模研究。"
+excerpt: "Moving-object understanding and event-based visual perception in complex dynamic scenes."
+excerpt_zh: "复杂动态场景中的运动目标理解与事件视觉感知。"
 ---
 
 <div data-lang-block="en" markdown="1">
 
-My doctoral research focuses on **video understanding and event-based visual perception for complex dynamic scenes**. I study how asynchronous event data can complement RGB appearance information, and how adaptive computation can improve the efficiency of visual Transformers on spatially sparse observations.
+My doctoral research focuses on **moving-object understanding and event-based visual perception in complex dynamic scenes**. I study how asynchronous event data can complement RGB appearance information, and how adaptive computation can improve the efficiency of visual Transformers on spatially sparse observations.
 
 ## Project Snapshot
 
@@ -60,7 +60,7 @@ The accompanying EventMM-HPE dataset supports high-frequency human pose analysis
 
 <div data-lang-block="zh" markdown="1">
 
-我的博士研究聚焦于**复杂动态场景中的视频理解与事件视觉感知**。研究重点包括异步事件数据如何补充 RGB 外观信息，以及如何通过自适应计算提升视觉 Transformer 处理空间稀疏观测时的效率。
+我的博士研究聚焦于**复杂动态场景中的运动目标理解与事件视觉感知**。研究重点包括异步事件数据如何补充 RGB 外观信息，以及如何通过自适应计算提升视觉 Transformer 处理空间稀疏观测时的效率。
 
 ## 项目概览
 
